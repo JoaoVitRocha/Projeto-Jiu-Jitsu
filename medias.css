@@ -1,0 +1,121 @@
+@media (max-width: 768px) {
+    /*celulares .*/
+    
+    header{
+        height: 100vh;
+    }
+
+    header .bola{
+        width: 250px;
+        height: 250px;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    header p{
+        width: 80%;
+        font-size: 1.5em;
+    }
+
+    nav{
+        order: 0;
+        margin: 50px 0px 0px 0px;
+    }
+
+    nav a{
+        font-size: 1.2em;
+        margin-right: 10px;
+        margin: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.448);
+
+    }
+
+    section.sobre-academia h2{
+        font-size: 1.8em;
+        margin: 30px 0px;
+    }
+
+    article.lutas {
+        text-align: center;
+    }
+
+    #luta2{
+        display: flex;
+    }
+
+    #lu2{
+        order: -1;
+    }
+
+    article.lutas img {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    article.lutas p {
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    section#trabalho h2{
+        font-size: 1.8em;
+        margin: 0px 0px 30px 0px;
+        padding: 0px 15px;
+    }
+
+    div.professores {
+        flex-direction: column;
+    }
+
+    div.equipe p{
+        width: 90%
+    }
+
+    div.turma{
+        width: 370px;
+        height: auto;
+    }
+    
+    div.turma img {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.sobre-mim .letra{
+        font-size: 2em;
+    }
+
+    .sobre-mim #sob{
+        margin-top: 200px;
+        margin-left: 5%;
+    
+    }
+
+    .sobre-mim #mim{
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+
+    section.sobre-mim img {
+        width: 300px;
+        margin: 20px auto;
+        top: 100px;
+    }
+
+    section.sobre-mim p {
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    section.final {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .final p {
+        width: 90%;
+        font-size: 1.5em;
+    }
+}
